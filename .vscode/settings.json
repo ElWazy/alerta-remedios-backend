@@ -1,0 +1,11 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "pylint.args": [
+        "--disable=missing-module-docstring",
+        "--disable=missing-function-docstring",
+        "--disable=missing-class-docstring"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
